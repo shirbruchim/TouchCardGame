@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_gravity="top|center">
+
+    <include
+        android:id="@+id/include_13_card_pack_layout"
+        layout="@layout/include_close_card_pack"
+        style="@style/IncludeCardPackStyle" />
+
+    <include
+        android:id="@+id/include_card_layout1"
+        layout="@layout/include_card"
+        style="@style/IncludeCardPackStyle" />
+
+    <include
+        android:id="@+id/include_full_card_pack_layout"
+        layout="@layout/include_close_card_pack"
+        style="@style/IncludeCardPackStyle" />
+
+</LinearLayout>

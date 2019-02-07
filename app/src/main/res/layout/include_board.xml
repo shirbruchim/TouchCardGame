@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/include_open_card_pack1"
+            layout="@layout/include_open_card_pack"
+            style="@style/IncludeOpenCardPackStyle" />
+        <include
+            android:id="@+id/include_open_card_pack2"
+            layout="@layout/include_open_card_pack"
+            style="@style/IncludeOpenCardPackStyle" />
+        <include
+            android:id="@+id/include_open_card_pack3"
+            layout="@layout/include_open_card_pack"
+            style="@style/IncludeOpenCardPackStyle" />
+        <include
+            android:id="@+id/include_open_card_pack4"
+            layout="@layout/include_open_card_pack"
+            style="@style/IncludeOpenCardPackStyle" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/include_close_card_pack1"
+            layout="@layout/include_close_card_pack"
+            style="@style/IncludeCardPackStyle" />
+
+        <include
+            android:id="@+id/include_close_card_pack2"
+            layout="@layout/include_close_card_pack"
+            style="@style/IncludeCardPackStyle" />
+        <include
+            android:id="@+id/include_close_card_pack3"
+            layout="@layout/include_close_card_pack"
+            style="@style/IncludeCardPackStyle" />
+        <include
+            android:id="@+id/include_close_card_pack4"
+            layout="@layout/include_close_card_pack"
+            style="@style/IncludeCardPackStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/include_close_card_pack5"
+            layout="@layout/include_close_card_pack"
+            style="@style/IncludeCardPackStyle" />
+
+        <include
+            android:id="@+id/include_close_card_pack6"
+            layout="@layout/include_close_card_pack"
+            style="@style/IncludeCardPackStyle" />
+        <include
+            android:id="@+id/include_close_card_pack7"
+            layout="@layout/include_close_card_pack"
+            style="@style/IncludeCardPackStyle" />
+        <include
+            android:id="@+id/include_close_card_pack8"
+            layout="@layout/include_close_card_pack"
+            style="@style/IncludeCardPackStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/include_open_card_pac5"
+            layout="@layout/include_open_card_pack"
+            style="@style/IncludeOpenCardPackStyle" />
+        <include
+            android:id="@+id/include_open_card_pac6"
+            layout="@layout/include_open_card_pack"
+            style="@style/IncludeOpenCardPackStyle" />
+        <include
+            android:id="@+id/include_open_card_pac7"
+            layout="@layout/include_open_card_pack"
+            style="@style/IncludeOpenCardPackStyle" />
+        <include
+            android:id="@+id/include_open_card_pac8"
+            layout="@layout/include_open_card_pack"
+            style="@style/IncludeOpenCardPackStyle" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
